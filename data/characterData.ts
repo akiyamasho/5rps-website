@@ -25,11 +25,10 @@ const projectsData: Character[] = [
     imgSrc: "/static/characters/vijay.jpg",
   },
   {
-    title: "Yusuf Avcı",
-    description: `A high school exchange student and coding prodigy, juggling part-time work to make ends meet
-`,
-    position: "Full-stack Engineer",
-    imgSrc: "/static/characters/yusuf.jpg",
+    title: "Sota Kanzaki",
+    description: `A sincere Japanese master's student and gifted technical lead in formation, working part-time while he turns difficult systems into practical fixes.`,
+    position: "Technical Lead",
+    imgSrc: "/static/characters/sota.jpg",
   },
 ];
 

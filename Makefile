@@ -1,16 +1,21 @@
 PNPM ?= pnpm
 BRANCH ?= main
 
-.PHONY: install dev build deploy
+.PHONY: dep install dev build start deploy
 
-install:
+dep:
 	$(PNPM) install
+
+install: dep
 
 dev:
 	$(PNPM) run dev
 
 build:
 	$(PNPM) run build
+
+start:
+	$(PNPM) run serve
 
 deploy: build
 	git push origin $(BRANCH)
